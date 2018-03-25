@@ -1,0 +1,67 @@
+body
+{
+	background-image: linear-gradient(60deg, purple, red 110%);
+}
+
+h1
+{
+	text-align: center;
+	font-style: italic;
+	color: white;
+}
+
+#image
+{
+	width: 200px;
+	height: 100px;
+	margin: auto;
+}
+img
+{
+	width: 200px;
+	height: 100px;
+}
+#menu
+{
+	width: 80%;
+	height: 800px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+h2
+{
+	color: white;
+}
+
+ul li
+{
+	width: 150px;
+	height: 50px;
+	list-style-type: none;
+}
+
+#menu ul div:hover h2
+{
+	font-size: 1.6em;
+}
+
+
+#menu ul div:hover .hide
+{
+	color: white;
+	font-style: italic;
+	display: block;
+}
+
+#menu ul div .hide
+{
+	display: none;
+}
+
+.first
+{
+	display: block;
+}
+

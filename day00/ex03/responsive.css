@@ -1,0 +1,250 @@
+h1
+{
+	display: flex;
+	justify-content: center;
+}
+td
+{
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+.borderTop
+{
+	border: none;
+}
+.atomicMass
+{
+	font-size: 0.7em;
+	text-align: right;
+	margin-bottom: 15px;
+}
+.element
+{
+	font-weight: bold;
+	text-align: center;
+}
+.alignEnd
+{
+	font-size: 0.8em;
+	text-align: left;
+	margin-top: 15px;
+}
+.purple
+{
+	background-color: rgb(171, 145, 254);
+}
+.orange
+{
+	background-color: rgb(254, 197, 144);
+}
+.beige
+{
+	background-color: rgb(255, 223, 146);
+}
+.yellow
+{
+	background-color: rgb(236, 255, 145);
+}
+.green
+{
+	background-color: rgb(145, 255, 158);
+}
+.pink
+{
+	background-color: rgb(249, 146, 255);
+}
+.blue
+{
+	background-color: rgb(144, 222, 254);
+}
+.grey
+{
+	background-color: rgb(200, 200, 200);
+}
+img
+{
+	height: 100px;
+	width: 100px;
+	margin-left: 300px;
+}
+
+
+@media screen and (max-width: 1200px)
+{
+	td
+	{
+		width: 70px;
+		height: 70px;
+	}
+	.atomicMass
+	{
+		font-size: 0.6em;
+	}
+	.element
+	{
+		font-weight: bold;
+		text-align: center;
+		font-size: 0.9em;
+	}
+	.alignEnd
+	{
+		font-size: 0.7em;
+	}
+	img
+	{
+		height: 70px;
+		width: 70px;
+		margin-left: 280px;
+	}
+	h1, th
+	{
+		font-size: 1.4em;
+	}
+}
+
+
+
+@media screen and (max-width: 1000px)
+{
+	td
+	{
+		width: 50px;
+		height: 50px;
+	}
+	.atomicMass
+	{
+		font-size: 0.5em;
+	}
+	.element
+	{
+		font-weight: bold;
+		text-align: center;
+		font-size: 0.7em;
+	}
+	.alignEnd
+	{
+		font-size: 0.6em;
+	}
+	img
+	{
+		height: 50px;
+		width: 50px;
+		margin-left: 260px;
+	}
+	h1, th
+	{
+		font-size: 1.2em;
+	}
+}
+
+
+@media screen and (max-width: 800px)
+{
+	td
+	{
+		width: 30px;
+		height: 30px;
+	}
+	.atomicMass
+	{
+		font-size: 0.4em;
+	}
+	.element
+	{
+		font-weight: bold;
+		text-align: center;
+		font-size: 0.6em;
+	}
+	.alignEnd
+	{
+		font-size: 0.4em;
+	}
+	img
+	{
+		height: 30px;
+		width: 30px;
+		margin-left: 240px;
+	}
+	h1, th
+	{
+		font-size: 1em;
+	}
+}
+
+
+@media screen and (max-width: 600px)
+{
+	td
+	{
+		width: 20px;
+		height: 20px;
+	}
+	.atomicMass
+	{
+		font-size: 0.3em;
+	}
+	.element
+	{
+		font-weight: bold;
+		text-align: center;
+		font-size: 0.4em;
+	}
+	.alignEnd
+	{
+		font-size: 0.4em;
+	}
+	img
+	{
+		height: 20px;
+		width: 20px;
+		margin-left: 220px;
+	}
+	h1, th
+	{
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	td
+	{
+		width: 10px;
+		height: 10px;
+	}
+	.atomicMass
+	{
+		font-size: 0.2em;
+	}
+	.element
+	{
+		font-weight: bold;
+		text-align: center;
+		font-size: 0.3em;
+	}
+	.alignEnd
+	{
+		font-size: 0.2em;
+	}
+	img
+	{
+		height: 10px;
+		width: 10px;
+		margin-left: 200px;
+	}
+	h1, th
+	{
+		font-size: 0.6em;
+	}
+}
+
+
+
+
+
+
+
+
+
+

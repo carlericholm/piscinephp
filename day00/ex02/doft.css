@@ -1,0 +1,233 @@
+body
+{
+	background-color: rgb(80, 80, 80);
+}
+
+#header
+{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	border-radius: 8px;
+	background-color: rgb(144, 144, 144);
+	position: relative;
+	box-shadow: 8px 8px 8px;
+	margin-top: 15px;
+}
+
+#dayOfThe42
+{
+	width: 34%;
+	border-radius: 8px;
+}
+
+#loupe
+{
+	width: 17%;
+	position: absolute;
+	right: 20px;
+	top: 5px;
+
+}
+
+#reload
+{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+
+}
+
+#close
+{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+#centralDiv
+{
+	width: 76%;
+	height: 500px;
+	margin: auto;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+#leftDiv
+{
+	width: 110px;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	background-color: rgb(144, 144, 144);
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px;
+}
+
+#middleDiv:nth-child(2)
+{
+	flex: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#rightDiv
+{
+	width: 110px;
+	height: 70%;
+}
+
+.imagesGauche
+{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+#oeil
+{
+	border: 5px solid red;
+	border-radius: 5px;
+}
+
+#middleDiv
+{
+	display: flex;
+	background-color: rgb(144, 144, 144);
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px;
+}
+
+#divLink1
+{
+	position: absolute;
+	z-index: 1;
+	left: 400px;
+	top: 300px;
+	border: 1px solid red;
+	width: 100px;
+	height: 150px;
+}
+
+#divLink2
+{
+	position: absolute;
+	z-index: 1;
+	border: 1px solid red;
+	left: 750px;
+	top: 300px;
+	width: 150px;
+	height: 100px;
+}
+
+
+#divCluster
+{
+	width: 97%;
+	height: 97%;
+	margin: auto;
+}
+
+#divCluster img
+{
+	width: 100%;
+	height: 100%;
+}
+
+#rightDiv
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: rgb(144, 144, 144);
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px;
+}
+
+#book
+{
+	width: 55px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+#essuie
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+#divBrique
+{
+	height: 70px;
+	width: 90%;
+	background-image: url(resources/brick.jpg);
+	margin-top: 10px;
+}
+
+#bottomDiv
+{
+	width: 400px;
+	height: 130px;
+	position: absolute;
+	bottom: -70px;
+	left: -50px;
+	background-color: rgb(136, 255, 137);
+	border-radius: 8px;
+	box-shadow: 8px 8px 8px;
+}
+
+#bigWord
+{
+	font-size: 1.7em;
+}
+
+#italic
+{
+	font-style: italic;
+}
+
+#submit
+{
+	margin-left: 5px;
+}
+p
+{
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
